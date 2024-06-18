@@ -8,6 +8,7 @@
 - Ollama 실습 및 Langchain을 이용한 ChatOllama를 활용한 LLM, OpenAI 코드 실습, 간단한 Streamlit을 활용한 코드 실습을 진행했습니다.
 
 ## 3일차
+- 민법 데이터를 이용하여 LLM을 개발하는 실습 과정입니다.
 
 ## 주의사항
 - 파일명에 Colab이라고 존재하는 파일들은 반드시 Colab안에서만 실행해야 합니다.
@@ -21,3 +22,15 @@ Ollama -> Ollama 코드를 구현하기 위해 필요합니다. (https://www.oll
     - ollama pull modelname or ollama run modelname (최초 1회만 다운로드 됩니다.)
     - 코드 실행을 위해 pull을 수행한 터미널 및 CMD를 코드 실행 동안 절대 닫지 말아야 합니다.
 
+### 클론 및 설치 방법
+- git clone
+```bash
+git clone https://github.com/98Haeng/2024LLMCourse.git
+```
+
+- library install
+```bash
+pip install -r requirements.txt
+```
+
+- 기타 추가로 필요한 사항은 참조해서 수정해놓겠습니다.
